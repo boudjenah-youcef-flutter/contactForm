@@ -1,0 +1,26 @@
+.btn {
+    display: flex;
+    margin: 1px;
+    border: none;
+    cursor: pointer ;
+    border-radius: 5px;
+    background-color: rgb(102 ,41 ,159);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    column-gap: 0.5rem;
+    padding: 1rem 10px;
+    min-width: 220px;
+    text-align: center;
+    width: 100;
+
+}
+.btn:hover {
+    background-color: rgb(77, 31, 120);
+}

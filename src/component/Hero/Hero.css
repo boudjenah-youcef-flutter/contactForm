@@ -1,0 +1,19 @@
+.hero {
+    padding: 1rem;
+}
+
+.hero h1 {
+    font-size: clamp(30px, 5vw, 60rem);
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.hero h1 span {
+   color: blueviolet;
+}
+
+.hero p {
+    font-size: 1rem ;
+    margin-bottom: 1rem;
+}

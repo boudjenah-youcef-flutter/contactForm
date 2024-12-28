@@ -1,0 +1,95 @@
+.formulaire__container {
+    padding: 40px; /* Increased padding for better spacing */
+    display: flex;
+    flex-direction: column; /* Adjusted for a column layout */
+    align-items: center;
+    gap: 2rem;
+    background-color: #f9f9f9; /* Added a subtle background color */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added a light shadow */
+}
+
+.formulaire__contact_btn {
+    display: flex;
+    gap: 2rem;
+    padding: 20px;
+    justify-content: center; /* Centered the buttons */
+}
+
+.formulaire__container img {
+    width: 100%;
+    max-width: 400px; /* Limited max width for better scaling */
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 1rem; /* Added spacing below the image */
+}
+
+.formulaire__container h2 {
+    font-size: 2rem; /* Increased font size for better emphasis */
+    font-weight: bold;
+    color: rgb(102, 41, 159);
+    text-align: center;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem; /* Added spacing below the heading */
+}
+
+.formulaire__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Reduced gap for a more compact layout */
+    width: 100%;
+    max-width: 500px; /* Limited max width for better alignment */
+}
+
+.inputgrup textarea {
+    border: 2px solid rgb(102, 41, 159);
+    border-radius: 5px;
+    color: rgb(102, 41, 159);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px; /* Added padding for a better user experience */
+    height: 120px; /* Set a consistent height */
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+.inputgrup input {
+    border: 2px solid rgb(102, 41, 159);
+    border-radius: 5px;
+    color: rgb(102, 41, 159);
+    background-color: white; /* Fixed color mismatch */
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px; /* Added padding for a better user experience */
+    width: 100%;
+}
+
+.inputgrup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+    width: 100%;
+    margin: 1rem 0; /* Adjusted margin for consistency */
+}
+
+.inputgrup label {
+    font-size: 0.9rem;
+    color: rgb(102, 41, 159);
+    font-weight: bold;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: rgba(102, 41, 159, 0.6); /* Lighter placeholder color */
+    font-weight: normal;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+    border-color: rgb(85, 20, 140); /* Darker border on focus */
+    box-shadow: 0 0 4px rgba(85, 20, 140, 0.5); /* Subtle glow effect */
+}
+
+
+
